@@ -5,6 +5,9 @@ apt-get install rofi -y
 
 #Install polybar the status bar
 apt-get install polybar -y
+cp -r ./polybar ~/.config
+chmod +x ~/.config/polybar/launch.sh
+cp -r ./scripts ~/.config
 
 #Install bspwm the window manager
 apt-get install bspwm -y
@@ -30,3 +33,4 @@ apt-get install wmname -y
 cp -r ./appimages ~/
 mkdir -p ~/.local/share/applications
 cp ~/appimages/Obsidian.desktop ~/.local/share/applications
+
