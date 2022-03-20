@@ -30,7 +30,7 @@ apt-get install dunst -y
 apt-get install wmname -y
 
 #Install obsidian for note takings
-cp -r ./appimages ~/
-mkdir -p ~/.local/share/applications
-cp ~/appimages/Obsidian.desktop ~/.local/share/applications
+#cp -r ./appimages ~/
+#mkdir -p ~/.local/share/applications
+#cp ~/appimages/Obsidian.desktop ~/.local/share/applications
 
