@@ -29,6 +29,12 @@ apt-get install dunst -y
 #Install wmname for the Java app's scaling in bspwm
 apt-get install wmname -y
 
+#copy custom scripts folder to $HOME
+cp -r ./scripts ~/.config
+
+#copy custom zsh bash settings
+cp ~/.zshrc ~/
+
 #Install obsidian for note takings
 #cp -r ./appimages ~/
 #mkdir -p ~/.local/share/applications
