@@ -33,7 +33,7 @@ apt-get install wmname -y
 cp -r ./scripts ~/.config
 
 #copy custom zsh bash settings
-cp ~/.zshrc ~/
+cp ./.zshrc ~/
 
 #Install obsidian for note takings
 #cp -r ./appimages ~/
